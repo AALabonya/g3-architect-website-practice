@@ -85,3 +85,40 @@ cursor: pointer;
         flex-direction: column;
     }
 }
+
+/* main style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams-container{
+ display: flex;
+ align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.text-container{
+    padding-right: 70px;
+    margin-left: 70px;
+}
+.t1{
+    color: #2e2d2d;
+font-size: 45px;
+font-weight: 500;
+
+}
+.t2{
+    color:  #131313;
+font-size: 45px;
+font-weight: 700;
+
+}
+.t3{
+    color: #FF900E;
+font-size: 45px;
+font-weight: 700;
+
+}
